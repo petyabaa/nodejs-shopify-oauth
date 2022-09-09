@@ -1,5 +1,6 @@
 # Hi.
-This app will perform you Shopify OAuth **without** the official shopify-api-node package. This app Express, MongoDB instead.
+This app will perform you Shopify OAuth **without** the official shopify-api-node package. This app Express, MongoDB instead. 
+This app walks through the [manual](https://shopify.dev/apps/auth/oauth/getting-started) authorization progress.
 
 ## Important!
 This package will only work if you make your own .env file in the project folder.

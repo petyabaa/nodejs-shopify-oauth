@@ -16,7 +16,7 @@ MONGODB_IP=127.0.0.1 # Your MongoDB server's IP
 MONGODB_PORT=27017  # Your MongoDB server's port
 ```
 
-To use this app, you should follow this steps:
+### To use this app, you should follow this steps:
 1. Install Node.JS with NPM
 2. Use ```npm install``` to collect all the necessary dependencies
 3. Setup a MongoDB server

@@ -1,5 +1,5 @@
 # Hi.
-This app will perform you Shopify OAuth **without** the official shopify-api-node package. This app Express, MongoDB instead. 
+This app will perform you Shopify OAuth **without** the official [shopify-api-node](https://www.npmjs.com/package/shopify-api-node) package. This app Express, MongoDB instead. 
 This app walks through the [manual](https://shopify.dev/apps/auth/oauth/getting-started) authorization progress.
 
 ## Important!
@@ -22,8 +22,9 @@ MONGODB_PORT=27017  # Your MongoDB server's port
 2. Use ```npm install``` to collect all the necessary dependencies
 3. Setup a MongoDB server
 4. Setup the App & Redirection URLs on your app's setup page in your Shopify Partner area. The necessary redirection URLs are {App URL}/auth and {App URL}/callback
-5. For testing purposes you could use ```npm run dev```. It will use nodemon instead of node. For production you should use ```npm run start```
-6. Enjoy the authenticated Shopify World! Now you could make any REST of GraphQL request into the Shopify. 
+5. Make a .env file into the project folder, like above
+6. For testing purposes you could use ```npm run dev```. It will use nodemon instead of node. For production you should use ```npm run start```
+7. Enjoy the authenticated Shopify World! Now you could make any REST of GraphQL request into the Shopify. 
 The only thing that you need is the access token, which will be saved into your MongoDB database. The db name is: shopify-oauth
 
 
